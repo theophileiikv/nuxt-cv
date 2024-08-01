@@ -1,0 +1,79 @@
+# dummy data for cv
+name: "Théophile Sergeraert"
+title: "Software Developer"
+bio: "10+ years experienced Product/Project Manager with strong technical background."
+
+locations:
+  - Paris, France, GMT+2
+  - Sofia, Bulgaria, GMT+3
+contact:
+  email: theophile.sergeraert@gmail.com
+  social:
+    - name: GitHub
+      url: https://github.com/theophileiikv
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/th%C3%A9ophile-sergeraert-7ab476106/
+    - name: X
+      url: https://x.com/theophileiikv
+
+about: "Detail-oriented Product/Project Manager dedicated to building high-quality products. I specialize in leading cross-functional teams, managing projects from ideation to delivery, and continuously improving processes. With a strong technical background and experience working remotely with international teams, I lead collaboration with stakeholders to deliver impactful solutions."
+
+
+experiences:
+  - company: Technofy
+    website: https://technofy.io
+    location: Sofia, Bulgaria
+    position: Delivery Team Manager
+    date: 2018 - 2024
+    description: |
+      At Technofy, I managed a diverse delivery team of DevOps, SecOps, Front-End, Back-End, and UI/UX experts. Our goal was to deliver high-quality products to customers on time. I oversaw large AWS projects, including network automation, Jenkins, Terraform, Ansible, DNS, and building new products from scratch.
+      
+      To keep everyone on the same page, I led Agile meetings like standups, planning sessions, demos, and retrospectives. I made sure the right people were working on the right tasks and that we had the resources to meet our deadlines. We followed Agile methods, learning and making changes quickly based on feedback.
+      
+      I worked closely with clients to understand their needs and turn them into clear user stories for the team. From start to finish, I planned and managed the delivery process, kept customers informed, and made sure we had all the necessary documentation.
+      
+      Listening to customers was a big part of my job. I used their feedback to make our services better. Quality was always a top priority, and I made sure our products met the right standards for each stage of development.
+  - company: Deloitte
+    location: Luxembourg
+    website: https://www2.deloitte.com/lu/en.html
+    position: Consultant
+    date: 2017
+    description: |
+      During my time as a Consultant at Deloitte, I took on various responsibilities across two main areas. In the Banking Industry PMO role, I managed budgets, timelines, and resource allocation for four work streams. I participated in daily stand-up meetings to track progress and tasks. I was responsible for forecasting, planning, and task management for a team of 15 people. Monthly duties included time reporting and client invoicing. I also contributed to efficiency studies focused on cost structures and operational maturity.
+      
+      In addition to the PMO role, I worked on Digital Strategy Proposals. This involved collaborating on technology strategy development and planning, ensuring alignment with business priorities. I conducted service assessments and prepared due diligence reports. I created digital agendas, roadmaps, and next-generation technical solutions. My work also included designing architectural mappings and solution modeling to meet client requirements.
+  - company: Société Générale
+    website: https://www.societegenerale.com/
+    location: Varna, Bulgaria
+    position: IT Project Management Officer
+    date: 2013 - 2015
+    description: |
+      At Société Générale, I established the IT PMO position within the bank. I created a Portfolio Management Tool to oversee more than 35 projects. My role involved planning IT staff allocation for both project and production work, as well as coordinating IT project tasks across various teams and the PMO.
+      
+      Additionally, I took on the responsibility of IT Manager and Coordinator for a Back Office Centralization, Digitalization, and Process Optimization Program. I monitored project deadlines and budget lines. I oversaw the implementation of technical solutions, including Documentum, Captiva, and Aseba BPS. This required me to prepare the infrastructure, deploy applications, and follow up on development and testing based on business needs.
+      
+      I proactively identified and mitigated risks throughout the project. To ensure a smooth transition, I organized a Change Management campaign impacting 900 end users. I coordinated functional and technical stress tests and monitored post go-live activity and reporting. I also prepared for and participated in Management Committee meetings.
+
+educations:
+  - school: Sophia Antipolis University (Nice, France)
+    degree: Master’s degree program MIAGE
+    date: 2011 - 2013
+    description: Major in New Technologies and Project Management
+
+skills:
+  - Agile Methodologies
+  - Scrum
+  - Kanban
+  - Jira
+  - Confluence
+  - AWS
+  - Jenkins
+  - Terraform
+  - Ansible
+  - DNS
+  - JavaScript
+  - Vue.js
+  - Nuxt.js
+  - HTML/CSS
+  - Git
+  - GitHub

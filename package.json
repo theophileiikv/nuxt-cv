@@ -15,5 +15,8 @@
     "@nuxt/ui": "^2.18.3",
     "nuxt": "^3.12.4",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/fa6-brands": "^1.1.21"
   }
 }
