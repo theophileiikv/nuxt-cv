@@ -4,11 +4,12 @@
             <h2 class="text-2xl tracking-tight font-bold text-gray-900 mb-4">
                 Work Experience
             </h2>
-            <div v-for="(experience, index) in resume.experiences" :key="index" class="mb-4 space-y-1">
+            <div v-for="(experience, index) in resume.experiences" :key="index" class="mb-6 space-y-1">
                 <div class="flex items-center justify-between gap-x-2">
                     <h3 class="text-black font-semibold">
                         <NuxtLink :to="experience.website" target="_blank" class="mr-2 hover:underline">{{ experience.company }}</NuxtLink>
-                        <UBadge variant="soft" size="md" class="text-black font-semibold bg-gray-100">{{ experience.location }}</UBadge>
+                        <UIcon name="i-heroicons-map-pin-16-solid" class="w-5 h-5 mr-1 align-top bg-gray-600" /><span class="text-black font-light">{{ experience.location }}</span>
+                        <!-- <UBadge variant="soft" size="md" class="text-black font-semibold bg-gray-100">{{ experience.location }}</UBadge> -->
                     </h3>
                     <p class="font-mono text-sm py-1 text-gray-500">{{ experience.date }}</p>
                 </div>
