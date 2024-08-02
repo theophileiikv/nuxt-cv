@@ -8,7 +8,7 @@
                 <div class="flex items-center justify-between gap-x-2">
                     <h3 class="text-black font-semibold">
                         <NuxtLink :to="experience.website" target="_blank" class="mr-2 hover:underline">{{ experience.company }}</NuxtLink>
-                        <UIcon name="i-heroicons-map-pin-16-solid" class="w-5 h-5 mr-1 align-top bg-gray-600" /><span class="text-black font-light">{{ experience.location }}</span>
+                        <UIcon name="i-heroicons-map-pin-16-solid" class="w-5 h-5 mr-1 align-top bg-gray-600" /><span class="text-black text-sm font-light">{{ experience.location }}</span>
                         <!-- <UBadge variant="soft" size="md" class="text-black font-semibold bg-gray-100">{{ experience.location }}</UBadge> -->
                     </h3>
                     <p class="font-mono text-sm py-1 text-gray-500">{{ experience.date }}</p>
