@@ -16,6 +16,16 @@
                 <p v-for="(paragraph, pIndex) in getParagraphs(experience.description)" :key="pIndex" class="font-mono text-xs py-1 text-gray-500">
                     {{ paragraph }}
                 </p>
+                <span class="block">
+                    <UBadge variant="soft" size="sm" class="text-white font-mono font-semibold bg-gray-500 mr-2" v-for="(skill_tech, index_t) in experience.skills_tech" :key="index_t">
+                        {{ skill_tech }}
+                    </UBadge>
+                </span>
+                <span class="block">
+                    <UBadge variant="soft" size="sm" class="text-black font-mono font-semibold bg-gray-200 mr-2" v-for="(skill_soft, index_s) in experience.skills_soft" :key="index_s">
+                        {{ skill_soft }}
+                    </UBadge>
+                </span>
             </div>
         </div>
     </div>

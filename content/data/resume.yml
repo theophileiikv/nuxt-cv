@@ -18,12 +18,19 @@ contact:
 
 about: "Detail-oriented Product/Project Manager dedicated to building high-quality products. I specialize in leading cross-functional teams, managing projects from ideation to delivery, and continuously improving processes. With a strong technical background and experience working remotely with international teams, I lead collaboration with stakeholders to deliver impactful solutions."
 
-
 experiences:
   - company: Self-Employed
     location: Sofia, Bulgaria
     position: Entrepreneur
     date: 2024 - Present
+    skills_tech:
+      - Nuxt.js
+      - Typescript
+      - Ruby
+      - Supabase
+      - AWS
+      - Terraform
+      - Ansible
     description: |
       I developed a SaaS product that turns Apple Notes into blogs within minutes, no-code & no-design required. I used Nuxt.js, Typescript, Ruby, and Supabase to build the app. I also automated the deployment of a WordPress site on AWS using Terraform for infrastructure provisioning and Ansible for configuration management.
   - company: Technofy
@@ -31,6 +38,17 @@ experiences:
     location: Sofia, Bulgaria
     position: Delivery Team Manager
     date: 2018 - 2024
+    skills_tech:
+      - AWS
+      - Terraform
+      - Ansible
+      - Jenkins
+      - DNS
+    skills_soft:
+      - Team Management
+      - Agile Methodologies
+      - Jira
+      - Confluence
     description: |
       Led a diverse team of DevOps, SecOps, Front-End, Back-End, and UI/UX experts delivering high-quality products on time. I managed large AWS projects and oversaw network automation, Jenkins, Terraform, and Ansible implementations. I ran Agile meetings, assigned tasks, and ensured resource availability. Working closely with clients, I translated their needs into user stories and managed the delivery process. I used customer feedback to improve services and maintained quality standards throughout development.
   - company: Deloitte
@@ -38,6 +56,12 @@ experiences:
     website: https://www2.deloitte.com/lu/en.html
     position: Consultant
     date: 2017
+    skills_soft:
+      - PMO
+      - Team Management
+      - Planning
+      - Agile Methodologies
+      - Digital Strategy
     description: |
       In the Financial Services Industry, as PMO, I managed budgets, timelines, and resources for four work streams, overseeing a 15-person team. I handled forecasting, planning, time reporting, and invoicing. I also developed tech strategies, conducted assessments, and created digital roadmaps as well as designing architectural mappings and solutions to meet client needs.
   - company: Société Générale
@@ -45,8 +69,15 @@ experiences:
     location: Varna, Bulgaria
     position: IT Project Management Officer
     date: 2013 - 2015
+    skills_soft:
+      - PMO
+      - IT Project Management
+      - Change Management
+      - Risk Management
+      - Budget
     description: |
       I established the IT PMO department , creating a tool to manage 35+ projects. I planned IT staff allocation and coordinated tasks across teams and projects. I also managed a Back Office digitalisation program, oversaw deadlines, budgets, and implementation of technical solutions like Documentum and Captiva. I managed risk, led change management for 900 users, coordinated testing, and monitored post-launch activities. I also prepared for and attended Stakeholder Committee meetings.
+
 educations:
   - school: Sophia Antipolis University (Nice, France)
     degree: Master’s degree program MIAGE
@@ -70,3 +101,4 @@ skills:
   - HTML/CSS
   - Git
   - GitHub
+  - Supabase

@@ -3,7 +3,7 @@
     <About />
     <Experiences />
     <Educations />
-    <Skills />
+    <!-- <Skills /> -->
     <Projects />
     <Footer />
 </template>
