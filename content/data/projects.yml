@@ -6,6 +6,7 @@ projects:
       - Nuxt.js
       - Typescript
       - Ruby
+      - Supabase
   - name: WordPress on AWS with Terraform and Ansible
     description: Automates the deployment of a WordPress site on AWS using Terraform for infrastructure provisioning and Ansible for configuration management
     url: https://github.com/theophileiikv/aws-iaac-wp
