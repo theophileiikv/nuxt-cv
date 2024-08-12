@@ -2,6 +2,8 @@
 
 A simple, minimalist CV/resume builder using Nuxt.js and YAML files for content management.
 
+[Link to GitHub repository](https://github.com/theophileiikv/nuxt-cv/)
+
 ## Features
 
 - Clean, minimalist design
