@@ -1,75 +1,76 @@
-# Nuxt 3 Minimal Starter
+# Nuxt CV
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A simple, minimalist CV/resume builder using Nuxt.js and YAML files for content management.
+
+## Features
+
+- Clean, minimalist design
+- Content management using YAML files
+- Responsive layout
+- Easy to customize and extend
+- Built with Nuxt.js
+- Uses @nuxt/ui for consistent styling
+- Separate pages for detailed project information
+
+## Prerequisites
+
+- Node.js (v14.x or later recommended)
+- npm or yarn
 
 ## Setup
 
-Make sure to install the dependencies:
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/nuxt-cv.git
+   cd nuxt-cv
+   ```
 
-```bash
-# npm
-npm install
+2. Install dependencies:
+   ```
+   npm install
+   # or
+   yarn install
+   ```
 
-# pnpm
-pnpm install
+3. Update the content:
+   - Edit `content/data/resume.yml` with your personal information
+   - Edit `content/data/projects.yml` with your project details
+   - Add or modify Markdown files in the `content` directory for detailed project information
 
-# yarn
-yarn install
+4. Run the development server:
+   ```
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-# bun
-bun install
+5. Open `http://localhost:3000` in your browser to see your CV.
+
+## Customization
+
+- Modify Vue components in the `components` directory to change the structure and layout
+- Update `app.config.ts` to change the primary color theme
+- Add new components or pages as needed
+
+## Building for Production
+
+To create a production version of your CV:
+
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
+# or
 yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+This will generate a `dist` directory with your static site, ready for deployment.
 
-```bash
-# npm
-npm run preview
+## License
 
-# pnpm
-pnpm run preview
+This project is open source and available under the [MIT License](LICENSE).
 
-# yarn
-yarn preview
+## Acknowledgments
 
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- [Nuxt.js](https://nuxtjs.org/)
+- [@nuxt/ui](https://ui.nuxtjs.org/)
+- [@nuxt/content](https://content.nuxtjs.org/)
+- [Orginal idea from Bartosz Jarocki](https://github.com/BartoszJarocki/cv)

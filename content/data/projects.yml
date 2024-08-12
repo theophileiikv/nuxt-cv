@@ -1,7 +1,7 @@
 projects:
   - name: sopot.io
     description: Saas that turns Apple Notes into blogs within minutes, no-code & no-design required
-    url: https://sopot.io
+    url: https://sopot.io/
     skills:
       - Nuxt.js
       - Typescript
@@ -9,14 +9,14 @@ projects:
       - Supabase
   - name: WordPress on AWS with Terraform and Ansible
     description: Automates the deployment of a WordPress site on AWS using Terraform for infrastructure provisioning and Ansible for configuration management
-    url: https://github.com/theophileiikv/aws-iaac-wp
+    url: /projects/aws-iaac-wp
     skills:
       - AWS
       - Ansible
       - Terraform
   - name: Nuxt CV
     description: Build your CV/personal site with Nuxt.js, using yaml files
-    url: https://github.com/theophileiikv/nuxt-cv
+    url: /projects/nuxt-cv
     skills:
       - Nuxt.js
       - Yaml
