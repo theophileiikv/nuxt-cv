@@ -66,7 +66,7 @@ This will generate a `dist` directory with your static site, ready for deploymen
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](https://choosealicense.com/licenses/mit/).
 
 ## Acknowledgments
 
