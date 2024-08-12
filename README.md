@@ -70,7 +70,4 @@ This project is open source and available under the [MIT License](https://choose
 
 ## Acknowledgments
 
-- [Nuxt.js](https://nuxtjs.org/)
-- [@nuxt/ui](https://ui.nuxtjs.org/)
-- [@nuxt/content](https://content.nuxtjs.org/)
 - [Orginal idea from Bartosz Jarocki](https://github.com/BartoszJarocki/cv)
