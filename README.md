@@ -5,7 +5,7 @@ A simple, minimalist CV/resume builder using Nuxt.js and YAML files for content 
 ## Features
 
 - Clean, minimalist design
-- Content management using YAML files
+- Content management using YAML files and Nuxt Content
 - Responsive layout
 - Easy to customize and extend
 - Built with Nuxt.js
